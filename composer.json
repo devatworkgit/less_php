@@ -1,27 +1,29 @@
 {
-	"name": "devatworkgit/less_php",
-	"description": "Less.php Symfony 2 library",
-	"keywords": [ "less", "css", "php", "stylesheet", "less.js", "lesscss" ],
-	"homepage": "http://devat.work",
-	"license": "Apache-2.0",
-	"authors": [
-		{
-			"name": "Ion Macaria",
-			"homepage": "https://www.drupal.org/u/ionmacaria"
-		}
-	],
-	"require": {
-		"PHP" : ">=5.3"
-	},
-	"require-dev": {
-		"phpunit/phpunit": "~4.8.24"
-	},
-	"scripts": {
-		"test": [
-			"phpunit"
-		]
-	},
-	"autoload": {
-		"psr-0": { "DevAtWork\\less_php": "src/" },
-	}
+    "name": "devatworkgit/less_php",
+    "description": "Less.php Symfony 2 library",
+    "keywords": [ "less", "css", "php", "stylesheet", "less.js", "lesscss" ],
+    "homepage": "http://devat.work",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Ion Macaria",
+            "homepage": "https://www.drupal.org/u/ionmacaria"
+        }
+    ],
+    "require": {
+        "PHP" : ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8.24"
+    },
+    "scripts": {
+        "test": [
+          "phpunit"
+        ]
+    },
+    "autoload": {
+        "psr-0": { 
+          "DevAtWork\\less_php": "src/" 
+        }
+    }
 }
